@@ -59,6 +59,7 @@ class Swapi:
             for line in unique_lines:  # check and remove duplicates
                 file.write(line)
 
+    # add some data
 
 f = Swapi()
 f.get_darth_vader()
